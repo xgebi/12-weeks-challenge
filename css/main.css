@@ -60,9 +60,15 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-size: 2.25rem;
+}
+
 ul {
   list-style: none;
-  width: 49rem;
+  max-width: 54rem;
+  margin: 0 auto;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -76,6 +82,7 @@ li {
   -webkit-flex: 0 15rem;
   flex: 0 15rem;
   line-height: 15rem;
+  display: block;
 }
 
 
