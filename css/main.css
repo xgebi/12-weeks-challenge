@@ -83,6 +83,8 @@ li {
   flex: 0 15rem;
   line-height: 15rem;
   display: block;
+  background: #FF8E00;
+  color: white;
 }
 
 
@@ -92,6 +94,7 @@ footer {
   text-align: center;
   color: white;
   height: 10rem;
+  line-height: 10rem;
 }
 
 footer a,
