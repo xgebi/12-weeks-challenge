@@ -211,10 +211,10 @@ textarea {
 
 .grid div.big .bottom-one * {
  display: block;
- -webkit-flex: 0 0 66px;
- flex: 0 0 66px;
- height: 66px;
- line-height: 66px;
+ -webkit-flex: 0 0 90px;
+ flex: 0 0 90px;
+ height: 90px;
+ line-height: 90px;
 }
 
 .grid div.small .bottom-one,
