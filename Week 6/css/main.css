@@ -6,8 +6,14 @@
 
 html {
   color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: 'Taviraj', serif; }
+
+h1,
+h2,
+h3,
+nav {
   font-family: 'Open Sans', sans-serif; }
 
 ::-moz-selection {
@@ -61,6 +67,9 @@ h1 {
   font-weight: 400;
   font-size: 36px;
   margin: 0 0 48px 0; }
+
+h3 {
+  margin: 48px 0 16px; }
 
 nav {
   overflow: hidden;
@@ -134,10 +143,18 @@ button {
   border: 0;
   font-size: 22px;
   margin: 32px; }
-  button.loading {
+  button.loading, button:active {
     padding: inherit 87px;
     /* Rectangle 3 Copy: */
     box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.62); }
+
+ul {
+  list-style: square; }
+
+ul.no-style {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
 /* ==========================================================================
    Media Queries
